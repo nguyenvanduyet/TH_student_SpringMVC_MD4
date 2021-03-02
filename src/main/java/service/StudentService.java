@@ -45,14 +45,11 @@ public class StudentService implements IStudentService{
     @Override
     public List<Student> findByName(String name) {
         List<Student> studentList = new ArrayList<>();
-        for (Student s:studentList) {
+        for (Student s:students) {
             if (s.getName().equals(name)){
                 studentList.add(s);
             }
-            return studentList;
-
         }
-
-        return null;
+        return studentList;
     }
 }

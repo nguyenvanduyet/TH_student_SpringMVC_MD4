@@ -13,7 +13,7 @@
 </head>
 <body>
 <h1> danh sách sinh viên</h1>
-<form action="/student">
+<form method="post" action="/student/search">
     <input type="text" name="name" placeholder="enter name">
     <input type="submit" value="search">
 
